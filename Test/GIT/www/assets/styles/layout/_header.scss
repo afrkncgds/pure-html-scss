@@ -1,0 +1,23 @@
+.header-root{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  .menu-block{
+    display: flex;
+    align-items: center;
+    a{
+      font-size: 16px;
+      color: black;
+      padding: 16px;
+      cursor: pointer;
+      &:hover{
+        background: $btcColor;
+      }
+      &.active{
+        background: yellow;
+      }
+    }
+
+  }
+}

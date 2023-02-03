@@ -1,0 +1,42 @@
+@media only screen and (max-width: 640px){
+
+  .home-root{
+    .work-content-root{
+      .work-content-container{
+        flex-direction: column;
+        .work-content-block{
+          width: 50%;
+          margin: 16px 0 0 ;
+          &:first-child{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .about-root{
+    .banner-container{
+      .title-block{
+        width: 100%;
+        padding: 0 32px;
+      }
+      .content-wrapper{
+        display: block;
+        .content-two-item,.content-three-item,.content-four-item{
+          margin: 16px 0 0;
+        }
+      }
+    }
+  }
+  .header-root{
+    .menu-block{
+      a{
+        &:hover{
+          background: unset;
+        }
+      }
+    }
+  }
+
+
+}

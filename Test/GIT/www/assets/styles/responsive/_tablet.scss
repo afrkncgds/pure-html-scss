@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1400px){
+  .header-root{
+    padding: 0 32px;
+  }
+  .home-root{
+    .work-content-root{
+      padding:64px 32px;
+    }
+  }
+  .about-root{
+    .banner-container{
+      .content-wrapper{
+        padding: 0 32px;
+        .content-one-item,.content-two-item,.content-three-item,.content-four-item{
+          &:hover{
+            box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
+            .text-item{
+              display: none;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+}
